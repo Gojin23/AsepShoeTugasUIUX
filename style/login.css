@@ -1,0 +1,44 @@
+.section-divider {
+  border: 0;
+  border-top: 1px solid black;
+  margin: 20px 0;
+  width: 80%;
+}
+.btn{
+  width: 90%;
+}
+#login-form input[type="email"],
+#login-form input[type="password"] {
+    width: 90%; 
+    max-width: 400px; 
+}
+#login-form {
+  padding-left: 30px !important;
+  border: 1px solid black;
+  padding-top: 30px!important;
+  margin-bottom: 400px;
+  padding: 10px;
+}
+
+#register-form {
+  border: 1px solid black;
+  padding: 10px;
+  padding-top: 30px;
+  padding-left: 40px !important;
+}
+
+#register-form input{
+    width: 90%; 
+    max-width: 500px; 
+}
+#register-form select{
+  width: 90%; 
+  max-width: 500px; 
+}
+#login-form form {
+  margin-bottom: 0;
+}
+
+#login-form button {
+  margin-top: 10px;
+}

@@ -1,0 +1,131 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: 300px;
+}
+
+.cart-table th,
+.cart-table td {
+  vertical-align: middle;
+  border: none;
+}
+
+.cart-table th {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+#thtop{
+  background-color: white !important;
+}
+
+.product-img {
+  width: 150px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.quantity-input {
+  width: 60px;
+}
+
+.btn-plus {
+  background-color: none;
+  color: #3a006a;
+  border: none;
+  font-weight: 900;
+  padding: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.table-bordered {
+  border: 2px solid #ddd;
+}
+
+.table-bordered th {
+  color: #3a006a;
+}
+
+.table-bordered td.text-right {
+  text-align: right;
+}
+
+h4.text-center {
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin: 0 -15px;
+  color: #3a006a;
+  font-weight: 300;
+}
+
+h5 {
+  text-align: center;
+  color: #3a006a;
+  font-weight: 300;
+}
+
+.text-purple {
+  color: #5632A1;
+  font-weight: 600;
+}
+#purple-divider {
+  border-color: #5632A1;
+  margin-left: 5px;
+  border-width: 3px;
+  width: 100%;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.search-input {
+  border: none;
+  padding: 5px -50px;
+  outline: none;
+  flex: 1;
+}
+.search-button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.search-button i {
+  color: #5632A1;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #5632A1;
+  border-color: #5632A1;
+}
+.custom-control.custom-checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-purple {
+  background-color: #5632A1;
+  border-color: #5632A1;
+  color: white;
+}
+.btn-purple:hover {
+  background-color: #620aa1;
+  border-color: #620aa1;
+  color: white;
+}
+/* .header-row {
+      background-color: #ff0000 !important; 
+  } */

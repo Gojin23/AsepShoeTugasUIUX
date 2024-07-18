@@ -1,0 +1,123 @@
+
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #5632A1;
+      color: white;
+      padding: 20px 0;
+      position: relative;
+      margin-top: auto; 
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .cart-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 100px;
+    }
+
+    .cart-item img {
+      width: 140px;
+      height: auto;
+      margin-left: 20px;
+    }
+
+    .cart-item-details {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    .cart-item-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .btn-purple {
+      background-color: #5632A1;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .btn-purple:hover {
+      background-color: #620aa1;
+      border-color: #620aa1;
+      color: white;
+    }
+
+    .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+      background-color: #5632A1;
+      border-color: #5632A1;
+    }
+
+    .star-rating img {
+      width: 40px;
+      margin-left: 10px;
+      height: auto;
+    }
+
+    header {
+      background-color: #5632A1;
+      color: white;
+      padding: 20px 0;
+    }
+
+    header .nav-link {
+      color: white;
+    }
+    #menu{
+      margin-bottom: 200px !important;
+    }
+    .search-bar {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .search-input {
+      border: none;
+      padding: 5px;
+      outline: none;
+      flex: 1;
+    }
+
+    .search-button {
+      background-color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .search-button i {
+      color: #5632A1;
+    }
+
+    .trash-icon {
+      color: black !important; 
+    }

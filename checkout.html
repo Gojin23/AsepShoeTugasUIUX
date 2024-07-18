@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AsepShoe</title>
+    <link rel="icon" href="images/shoe3.png" type="image/png" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style/checkout.css" />
+  </head>
+  <body>
+    <header class="text-white py-4" style="background-color: #5632A1;">
+      <div class="container d-flex justify-content-between align-items-center">
+          <a href="index.html" class="text-white text-decoration-none">
+              <h1 class="m-0 mr-auto">AsepShoe</h1>
+          </a>
+          <nav class="ml-auto">
+              <ul class="nav">
+                  <li class="nav-item"><a class="nav-link text-white" href="sepatu.html">Sepatu</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="artikel.html">Artikel</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="rekomendasi.html">Rekomendasi</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="bantuan.html">Bantuan</a></li>
+                  <li class="nav-item">
+                      <div class="search-bar">
+                          <input type="text" placeholder="Cari..." class="search-input">
+                          <button class="search-button"><i class="fas fa-paper-plane"></i></button>
+                      </div>
+                  </li>
+              </ul>
+          </nav>
+          <div class="cart-icon ml-4">
+              <a href="cart.html" class="text-white"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+      </div>
+  </header>
+
+    <div class="main-content container my-5">
+      <div class="row">
+        <div class="col-md-8">
+          <table class="table table-bordered cart-table">
+            <thead>
+              <tr>
+                <th colspan="4" class="text-center" id="thtop">
+                  <h4 class="mb-0" style="color: #3a006a; font-weight: 300">
+                    KERANJANG BELANJA
+                  </h4>
+                </th>
+              </tr>
+              <tr class="header-row">
+                <th>ITEM</th>
+                <th style="width: 10%;">HARGA</th>
+                <th>JUMLAH</th>
+                <th style="width: 10%;">SUB TOTAL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="d-flex align-items-center">
+                  <img src="images/rekomendasi/nike1.png" alt="Product Image" class="product-img" />
+                  <div class="ml-3">
+                    <p class="m-0 font-weight-bold" style="color: #3a006a">
+                      NIKE
+                    </p>
+                    <p class="m-0">
+                      Air Force 1 '07 Men's Basketball Shoes - Black
+                    </p>
+                    <p class="text-muted m-0 mt-4">
+                      <span class="text-purple">Size US</span> 10
+                    </p>
+                  </div>
+                </td>
+                <td style="font-weight: 600; white-space: nowrap;">Rp. 1.200.000</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <input type="number" class="form-control text-center mx-2 quantity-input" value="1" />
+                  </div>
+                </td>
+                <td style="font-weight: 600; white-space: nowrap;">Rp. 1.200.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 mx-auto">
+          <h4 class="mb-4 text-center">RINCIAN BELANJA</h4>
+          <hr id="purple-divider" class="section-divider" />
+          <div class="d-flex justify-content-between">
+            <p class="m-0">Subtotal</p>
+            <p class="m-0" style="font-weight: 600">Rp. 1.200.000</p>
+          </div>
+          <hr id="purple-divider" class="section-divider" />
+          <div class="d-flex justify-content-between">
+            <p class="m-0">Total</p>
+            <p class="font-weight-bold" style="font-weight: 600">Rp. 1.200.000</p>
+          </div>
+          <hr id="purple-divider" class="section-divider" />
+          <h4 class="mb-4 text-center">METODE BAYAR</h4>
+          <hr id="purple-divider" class="section-divider" />
+          <div class="form-group">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="bca">
+              <label class="custom-control-label" for="bca">Transfer BCA</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="bri" checked>
+              <label class="custom-control-label" for="bri">Transfer BRI</label>
+            </div>
+          </div>
+          <button type="button" class="btn btn-purple btn-block" onclick="window.location.href='pemesanan.html'">BAYAR</button>
+        </div>
+      </div>
+    </div> 
+
+    <footer class="text-white py-4" style="background-color: #5632A1;">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <h3 style="margin-bottom: 50px;">AsepShoe 2024</h3>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white"></a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6">
+                  <h3></h3>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white"></a></li>
+                      <li><a href="#" class="text-white"></a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

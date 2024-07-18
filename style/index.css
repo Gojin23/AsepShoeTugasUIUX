@@ -1,0 +1,58 @@
+.promo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #5632A1;
+  color: white;
+  height: 100px;
+  padding: 20px;
+
+}
+
+.promo h2 {
+  margin: 0;
+
+}
+
+.button {
+  background-color: white;
+  color: #5632A1;
+  border: none;
+  border-radius: 6px;
+  margin-right: 60px;
+  padding: 10px 20px;
+  font-size: 19px !important;
+  width: 400 !important;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+  color: #5632A1;
+}
+
+.products {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 150px !important;
+}
+
+.products h2 {
+  margin-bottom: 35px !important;
+
+}
+
+.product-categories {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.category {
+  text-align: center;
+}

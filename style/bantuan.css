@@ -1,0 +1,80 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+#menu {
+  padding-top: 40px !important;
+}
+
+main {
+  flex: 1;
+}
+h2 {
+  font-weight: 600 !important;
+}
+body {
+  color: black;
+}
+.fa-arrow-left {
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.container.my-3 {
+  background-color: #F9F4FF;
+  background-size: 100%;
+}
+.card1 {
+  margin-bottom: 20px;
+  margin-left: 130px;
+  margin-right: 130px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card2 {
+  margin-bottom: 20px;
+  margin-left: 130px;
+  margin-right: 130px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.card-body {
+  border-bottom: 1px solid black;
+}
+#headingOne {
+  color: #333;
+}
+
+#headingTwo {
+  color: #333;
+}
+
+.btn-link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+}
+section {
+  background-color: #F9F4FF;
+  height: 100vh;
+}
+
+footer {
+  background-color: #5632a1;
+  color: white;
+  padding: 1rem 0;
+  bottom: 0;
+  width: 100%;
+}

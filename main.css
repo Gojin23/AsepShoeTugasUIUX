@@ -1,0 +1,185 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fff;
+}
+
+header {
+  background-color: #5632A1;
+  color: white;
+  padding: 90px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#logo {
+  font-size: 42px !important; 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* font-size: 25px !important;  */
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+nav ul li a:hover {
+  transform: scale(1.05);
+}
+
+.cart-icon {
+  font-size: 24px;
+}
+
+.cart-icon a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+.category a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.category a:hover {
+  text-decoration: none;
+}
+
+.category p {
+  color: black;
+}
+
+.promo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #5632A1;
+  color: white;
+
+  padding: 20px;
+}
+
+.promo h2 {
+  margin: 0;
+
+}
+
+.button {
+  background-color: white;
+  color: #5632A1;
+  border: none;
+  border-radius: 6px;
+  margin-right: 60px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+  color: #5632A1;
+}
+
+.products {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 20px;
+}
+
+.product-categories {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.category {
+  text-align: center;
+}
+
+.category img {
+  width: 80%;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  margin-bottom: 15px;
+}
+
+.category img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #5632A1;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content div {
+  flex: 1;
+}
+
+.footer-content h3 {
+  margin-top: 0;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  margin: 5px 0;
+}
+
+.footer-content ul li a {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.footer-content ul li a:hover {
+  transform: scale(1.05);
+}

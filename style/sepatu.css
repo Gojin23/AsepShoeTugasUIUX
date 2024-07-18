@@ -1,0 +1,135 @@
+
+html, body {
+height: 100%;
+margin: 0;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+.card  {
+transition: transform 0.3s ease; 
+}
+
+.card:hover  {
+transform: scale(1.03); 
+}
+.sepatu-img {
+width: 65% !important; 
+height: auto !important; 
+margin-top: 30px;
+object-fit: cover !important; 
+}
+
+.card h5{
+    font-size: 18px;
+}
+
+main {
+flex: 1;
+display: flex;
+}
+
+.sidebar {
+position: sticky;
+top: 0;
+align-self: flex-start;
+padding-top: 20px; 
+height: 100vh;
+overflow-y: auto;
+background-color: #5632A1; 
+color: white; 
+}
+
+.sidebar h3 {
+color: white;
+}
+
+footer {
+margin-top: auto;
+}
+.sidebar h3, .sidebar h4, .sidebar label {
+color: white;
+}
+.sidebar input, .sidebar select {
+margin-bottom: 10px;
+}
+.card-title {
+font-size: 1rem;
+}
+.star-rating img {
+width: 50px; 
+margin-left: 10px;
+height: auto;
+}
+.card-text {
+margin-bottom: 0.5rem;
+font-weight: bold;
+
+}
+.section-divider {
+border: 0;
+border-top: 1px solid white;
+}
+
+#purple-divider {
+border-color: #5632A1; 
+margin-left: 5px;
+border-width: 3px;
+width: 80%;
+}
+
+.color-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: -50px;
+}
+.color-box {
+width: 30px;
+height: 30px;
+margin: 5px;
+border-radius: 50%;
+}
+
+.bg-grey { background-color: grey; }
+.bg-brown { background-color: brown; }
+.bg-green { background-color: green; }
+.bg-blue { background-color: blue; }
+.bg-lightblue { background-color: #5570FF; }
+.bg-red { background-color: red; }
+.bg-black { background-color: black; }
+
+footer {
+margin-top: auto;
+background-color: #5632A1;
+background-size: cover; 
+background-position: center; 
+color: white;
+padding: 20px;
+text-align: left;
+box-sizing: border-box;
+}
+
+.search-bar {
+display: flex;
+align-items: center;
+background-color: white;
+border-radius: 2px;
+overflow: hidden;
+}
+.search-input {
+border: none;
+padding: 5px -50px;
+outline: none;
+flex: 1;
+}
+.search-button {
+background-color: white;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+}
+.search-button i {
+color: #5632A1;
+}
